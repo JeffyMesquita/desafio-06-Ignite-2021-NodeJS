@@ -4,15 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-<<<<<<< HEAD
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn ./src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli",
     "test": "NODE_ENV=test JWT_SECRET=senhasupersecreta123 jest --runInBand"
-=======
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn ./src/server.ts",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli",
-    "test": "jest"
->>>>>>> 81b7a4a40b2a67b192711feff3d8eff94a09881d
+
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
